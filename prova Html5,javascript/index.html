@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faixa Etária</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        label {
+            margin-right: 10px;
+        }
+        .result {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faixa Etária</h1>
+    <form id="idadeForm">
+        <label for="idade1">Idade 1:</label>
+        <input type="number" id="idade1" required><br>
+        <label for="idade2">Idade 2:</label>
+        <input type="number" id="idade2" required><br>
+        <label for="idade3">Idade 3:</label>
+        <input type="number" id="idade3" required><br>
+        <label for="idade4">Idade 4:</label>
+        <input type="number" id="idade4" required><br>
+        <label for="idade5">Idade 5:</label>
+        <input type="number" id="idade5" required><br><br>
+        <button type="button" onclick="calcularFaixaEtaria()">Calcular Faixa Etária</button>
+    </form>
+
+    <div id="resultado" class="result"></div>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
